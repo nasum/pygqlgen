@@ -6,9 +6,12 @@ authors = ["nasum <tomato.wonder.life@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
+lark-parser = "^0.7.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^3.0"
+flake8 = "^3.7"
+autopep8 = "^1.4"
 
 [build-system]
 requires = ["poetry>=0.12"]

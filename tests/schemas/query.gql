@@ -1,0 +1,6 @@
+schema {
+  type Ship {
+    id: ID!
+    name: String!
+  }
+}
